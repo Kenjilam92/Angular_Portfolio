@@ -1,0 +1,25 @@
+<table class={{setting.tableClass}}>
+    <thead>
+        <tr class={{setting.theadClass}}>
+            <th  *ngFor="let title of setting.titles"
+                class={{setting.thClass}}
+                (click)="setting.thClicked(title.variableName)"
+                (hover)="setting.thHovered(title.variableName)"
+            >
+                {{ title.displayName }}
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let row of setting.data"
+            class={{setting.trClass}}
+        >
+            <td *ngFor="let title of setting.titles"
+                class={{setting.tdClass}}
+                (click)="setting.tdClicked( row[title.variableName] )"
+            >
+                {{ row[title.variableName] }}
+            </td>
+        </tr>
+    </tbody>
+</table>
