@@ -1,0 +1,49 @@
+.content {
+    width: 100vw;
+    height: calc(100vh - 100px);
+    padding: 10px;
+    overflow: scroll;
+    background-color: black;
+}
+/* WebKit-based browsers */
+::-webkit-scrollbar {
+    width: 12px; /* Set the width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Set the background color of the scrollbar track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #888; /* Set the color of the scrollbar thumb */
+    border-radius: 6px; /* Set the border radius of the scrollbar thumb */
+  }
+  
+  /* Internet Explorer and Microsoft Edge */
+  /* WebKit-based browsers */
+::-webkit-scrollbar {
+    width: 12px; /* Set the width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f118;; /* Set the background color of the scrollbar track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #8888883f; /* Set the color of the scrollbar thumb */
+    border-radius: 6px; /* Set the border radius of the scrollbar thumb */
+  }
+  
+  /* Internet Explorer and Microsoft Edge */
+  ::-ms-scrollbar {
+    width: 12px; /* Set the width of the scrollbar */
+  }
+  
+  ::-ms-scrollbar-track {
+    background-color: #f1f1f118; /* Set the background color of the scrollbar track */
+  }
+  
+  ::-ms-scrollbar-thumb {
+    background-color: #8888883f; /* Set the color of the scrollbar thumb */
+    border-radius: 6px; /* Set the border radius of the scrollbar thumb */
+  }

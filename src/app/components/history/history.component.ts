@@ -292,7 +292,7 @@ export class HistoryComponent {
       { test1: "b", test2: 2, test3: "ii" },
       { test1: "c", test2: 3, test3: "iii" },
     ],
-    tableClass: "table table-bordered",
+    tableClass: "table table-bordered text-white",
     theadClass: "bg-success"
   });
 }
