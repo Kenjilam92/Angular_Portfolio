@@ -1,0 +1,48 @@
+/* Hide scrollbar for IE, Edge and Firefox */
+
+* {
+    box-sizing: content-box;
+}
+.tableFrame{
+    overflow-x: scroll;
+    max-height: 100%;
+    /* border: 1px red solid; */
+    
+}
+
+tbody{
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar-track {
+    background-color: #f1f1f118;
+    
+}
+::-webkit-scrollbar-thumb {
+    background-color: #8888883f; /* Set the color of the scrollbar thumb */
+    border-radius: 12px; /* Set the border radius of the scrollbar thumb */
+  }
+  ::-webkit-scrollbar {
+    width: 6px; /* Set the width of the scrollbar */
+    height: 12px;
+  }
+table {
+    position: relative;
+}   
+thead {
+    position: sticky;
+    top:0;
+    z-index: 1;
+}
+
+.table-bordered{
+    border-collapse: separate;
+    border-spacing: 0;
+    /* border-top: 2x white solid; */
+}
+.table-bordered th, .table-bordered td{
+    border: 1px solid
+}
