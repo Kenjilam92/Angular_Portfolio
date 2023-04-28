@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
@@ -8,6 +9,7 @@ import { ArticleComponent } from './components/core/article/article.component';
 import { HistoryComponent } from './components/history/history.component';
 import { TableCustomizedComponent } from './components/core/table-customized/table-customized.component';
 import { MainContentComponent } from './components/core/main-content/main-content.component';
+import { VerticalMenuComponent } from './components/vertical-menu/vertical-menu.component';
 
 @NgModule({
   declarations: [
@@ -17,10 +19,12 @@ import { MainContentComponent } from './components/core/main-content/main-conten
     ArticleComponent,
     HistoryComponent,
     TableCustomizedComponent,
-    MainContentComponent
+    MainContentComponent,
+    VerticalMenuComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
