@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+@media screen and (min-width: 992px) {
+    /* Add desktop styles here */
+    .header, .footer{
+        display: none;
+    }
+    .content{
+        min-height: 100vh;
+        max-height: 100vh;
+    }
+  }
+  
+  /* Styles for tablet screens */
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    /* Add tablet styles here */
+    
+  }
+  
+  /* Styles for mobile screens */
+  @media screen and (max-width: 767px) {
+    /* Add mobile styles here */
+    
+  }
