@@ -1,0 +1,15 @@
+<div class="col">
+    <div class="row" *ngFor="let t of resume">
+        <div style="text-align: right;"class="col-3 text-right text-warning text-bold"> <b>{{t["period"]}}</b> </div>
+        <div style="width:fit-content"><p>●</p></div>
+        <div class="col text-light">
+            <p><b class="text-warning" >{{t.organization}}</b></p>
+            <ul>
+                <li>
+                    <b *ngIf="t.type==='education'; else elseBlock" class="text-info">Studied:</b> {{t.title}}</li>
+                    <ng-template #elseBlock><b class="text-info">Job title: </b></ng-template>
+                <li *ngFor="let i of t.bulletPoints">{{i}}</li>
+            </ul>
+        </div>
+    </div>
+</div>
