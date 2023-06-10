@@ -14,6 +14,6 @@ export class VerticalMenuComponent implements OnInit{
   constructor ( private http: HttpClient)  { }
   
   ngOnInit(){
-    this.http.get<any>("../../../assets/api/MenuAPI.json").subscribe( data => this.menuAPI= data);
+    this.http.get<any>("../../../assets/api/menuAPI.json").subscribe( data => this.menuAPI= data);
   }
 }

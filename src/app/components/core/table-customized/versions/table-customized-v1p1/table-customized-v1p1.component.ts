@@ -1,12 +1,12 @@
 import { Component, Input, OnInit, DoCheck } from '@angular/core';
-import { TableSetting } from './table-setting';
+import { TableSetting } from '../../models/table-setting';
 
 @Component({
-  selector: 'app-table-customized',
-  templateUrl: './table-customized.component.html',
-  styleUrls: ['./table-customized.component.css']
+  selector: 'app-table-customized-v1p1',
+  templateUrl: './table-customized-v1p1.component.html',
+  styleUrls: ['./table-customized-v1p1.component.css','../../themes/table-customized-v1_1.css']
 })
-export class TableCustomizedComponent implements OnInit, DoCheck{
+export class TableCustomizedV1p1Component implements OnInit, DoCheck {
   @Input() inputSetting? : TableSetting 
   
   /////////////Test value
@@ -79,5 +79,5 @@ export class TableCustomizedComponent implements OnInit, DoCheck{
     return "";
     
   }
-  
+
 }

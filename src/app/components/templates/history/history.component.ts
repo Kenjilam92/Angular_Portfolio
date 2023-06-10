@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { TableSetting } from '../core/table-customized/table-setting';
+import { TableSetting } from '../../core/table-customized/models/table-setting';
 // import resumeAPI from '../../api/resumeAPI.json';
 // import menuAPI from '../../api/MenuAPI.json';
 @Component({
@@ -287,12 +287,63 @@ export class HistoryComponent {
   public keysList = Object.keys(this.tableValue[0]);
   
   public setting: TableSetting = new TableSetting( {
+    titles: [
+      { displayName: "Test 1", variableName: "test1" },
+      { displayName: "Test 2", variableName: "test2" },
+      { displayName: "Test 3", variableName: "test3" },
+      { displayName: "Test 2", variableName: "test2" },
+      { displayName: "Test 3", variableName: "test3" },
+      { displayName: "Test 2", variableName: "test2" },
+      { displayName: "Test 3", variableName: "test3" },
+      { displayName: "Test 2", variableName: "test2" },
+      { displayName: "Test 3", variableName: "test3" }, 
+      { displayName: "Test 2", variableName: "test2" },
+      { displayName: "Test 3", variableName: "test3" },
+      { displayName: "Test 2", variableName: "test2" },
+      { displayName: "Test 3", variableName: "test3" },
+      { displayName: "Test 2", variableName: "test2" },
+      { displayName: "Test 3", variableName: "test3" },
+      { displayName: "Test 2", variableName: "test2" },
+      { displayName: "Test 3", variableName: "test3" },
+      { displayName: "Test 2", variableName: "test2" },
+      { displayName: "Test 3", variableName: "test3" },
+      { displayName: "Test 2", variableName: "test2" },
+      { displayName: "Test 3", variableName: "test3" },
+      { displayName: "Test 2", variableName: "test2" },
+      { displayName: "Test 3", variableName: "test3" },
+      { displayName: "Test 2", variableName: "test2" },
+      { displayName: "Test 3", variableName: "test3" }
+    ],
     data: [
       { test1: "a", test2: 1, test3: "i" },
       { test1: "b", test2: 2, test3: "ii" },
       { test1: "c", test2: 3, test3: "iii" },
+      { test1: "c", test2: 3, test3: "iii" },
+      { test1: "c", test2: 3, test3: "iii" },
+      { test1: "c", test2: 3, test3: "iii" },
+      { test1: "c", test2: 3, test3: "iii" },
+      { test1: "c", test2: 3, test3: "iii" },
+      { test1: "c", test2: 3, test3: "iii" },
+      { test1: "c", test2: 3, test3: "iii" },
+      { test1: "c", test2: 3, test3: "iii" },
+      { test1: "c", test2: 3, test3: "iii" },
+      { test1: "c", test2: 3, test3: "iii" },
+      { test1: "c", test2: 3, test3: "iii" },
+      { test1: "c", test2: 3, test3: "iii" },
+      { test1: "c", test2: 3, test3: "iii" },
+      { test1: "c", test2: 3, test3: "iii" },
+      { test1: "c", test2: 3, test3: "iii" },
+      { test1: "c", test2: 3, test3: "iii" },
+      { test1: "c", test2: 3, test3: "iii" },
+      { test1: "c", test2: 3, test3: "iii" },
+      { test1: "c", test2: 3, test3: "iii" },
+      { test1: "c", test2: 3, test3: "iii" },
+      { test1: "c", test2: 3, test3: "iii" },
+      { test1: "c", test2: 3, test3: "iii" },
+      
     ],
-    tableClass: "table table-bordered text-white",
-    theadClass: "bg-success"
+    tableClass: "table table-bordered",
+    theadClass: "bg-success text-white",
+    tdClass: "text-white"
   });
 }

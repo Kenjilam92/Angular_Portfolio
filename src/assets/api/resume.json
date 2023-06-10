@@ -9,8 +9,10 @@
         "keywords":[],
         "bulletPoints": [
             "Achieved a Bachelor’s in Marketing Administration, GPA: 3.56",
-            "Demonstrated marketing strategies by collecting and analyzing the data from the market.",
-            "Had being class president from 2011 to 2012"
+            "Demonstrated marketing strategies based on real data",
+            "Collected market survey and converted into database",
+            "Analyzed survey results from a sample size of 100 and defined customer behaviors, also market outlook",
+            "Honorably became class president from 2011 to 2012"
         ]
     },
     {
@@ -38,9 +40,10 @@
         "url": "https://www.vanhoagroup.com/",
         "keywords":["SEO"],
         "bulletPoints": [
-            "Achieved a Bachelor’s in Marketing Administration, GPA: 3.56",
-            "Demonstrated marketing strategies by collecting and analyzing the data from the market.",
-            "Had being class president from 2011 to 2012"
+            "Provided SEO strategies that focus on target customer",
+            "Successful promoted website on top 3 Google Search result with keywords 'moc khoa' which mean 'keychain' in Vietnamese",
+            "Designed UX/UI for vanhoagroup.com which increased user traffic",
+            "Applied automation responses for common questions on Facebook pages and web chatbots, helped sale team educate customers more efficiency and improved user experiences"
         ]
     },
     {
@@ -52,8 +55,23 @@
         "url": "https://www.nvcc.edu/",
         "keywords":[],
         "bulletPoints": [
-            "Achieved Associate Science in Business Administration, GPA: 3.8",
-            "Studied American Culture, Business, and Microbiology."
+            "Graduated Associate Science in Business Administration, GPA: 3.8",
+            "Honorably became a member of the Nation Society of Collegiate Scholars",
+            "Archived high performance in courses of Art Appreciation, Business Analysis, Accounting, and Microbiology"
+        ]
+    },
+    {
+        "period": "2018-2020",
+        "type": "experience",
+        "title": "Medical Interpreter",
+        "organization": "Liberty Language Services",
+        "description": "",
+        "url": "www.libertylanguageservices.com",
+        "keywords":[],
+        "bulletPoints": [
+            "Provided steady interpreting conversations in medical fields",
+            "Helped ESL patients communicate with medical teams",
+            "Mentally supported patients and family members during difficult times"
         ]
     },
     {
@@ -87,18 +105,35 @@
         ]
     },
     {
-        "period": "2021-current",
+        "period": "2021-2022",
+        "type": "experience",
+        "title": "Production Support",
+        "organization": "CVS Pharmacy",
+        "description": "",
+        "url": "https://cvs.com",
+        "keywords":["Java", "Angular", "Spring", "Hibernate", "Oracle", "DevOps", "Micro Services", "ServicesNOW"],
+        "bulletPoints": [
+            "Maintained a full-stack project that helped medical team fastening documentation process which follows HIPAA standard ",
+            "Managed code base on Git repositories, merged code across branches",
+            "Performed deployment through Jenkins pipelines which follow CI/CD standard ",
+            "Analyzed database, identified incorrect records, and performed massive correction",
+            "Distributed tickets and generated reports on Service NOW"
+        ]
+    },
+    {
+        "period": "2022-2023",
         "type": "experience",
         "title": "Software Developer",
-        "organization": "Revature",
+        "organization": "Freddie Mac",
         "description": "",
-        "url": "https://revature.com/",
-        "keywords":["Java", "Angular", "Spring", "Hibernate", "Oracal", "DevOps", "Micro Services"],
+        "url": "https://freddiemac.com",
+        "keywords":["Java", "Angular", "Spring", "Hibernate", "Oracle", "DevOps", "Micro Services", "ServicesNOW"],
         "bulletPoints": [
-            "Completed 10 weeks training of Java, Spring, Angular, Microservices",
-            "Mantained fullstack projected from different team",
-            "Created new features, Angular components, and refactored data structure",
-            "Used Angile Methodology to manage project"
+            "Developed an internal full stack project that helped teams access database and generated reports with friendly UI",
+            "Designed reusable Angular for financial report templates which fastened development process",
+            "Applied Agile methodology in managing the project",
+            "Upgraded technologies for other existing external projects on a high business level",
+            "Provided and coordinated implementation plans and backout plans for deployments"    
         ]
     }
 ]
